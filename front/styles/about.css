@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to bottom, #3a3636, #1a1a1a);
+    min-height: 100vh;
+}
+
+.nav{
+    margin:auto;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        margin-top: 100px;
+    }
+}
+
+footer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 60px; 
+    text-align: center; 
+}
